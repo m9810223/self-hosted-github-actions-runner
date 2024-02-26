@@ -1,0 +1,6 @@
+services:
+  runner:
+    build: .
+    environment:
+      GH_TOKEN: ${GH_TOKEN}
+      GH_OWNER: ${GH_OWNER}
